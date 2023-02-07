@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="site-image-container">
+    <div>
+      <h1>ODIN</h1>
+    </div>
+
+  </div>
+  <div class="site-form-container">
+    <form action="#">
+      <div class="form-description-section">
+        <p>This is not a real online service! You know you need something like this in your life to help you realize
+          your
+          deepest dreams. Sign up <i>now</i> to get started.</p>
+        <p>You <i>know</i> you want to.</p>
+      </div>
+      <div class="form-input-section">
+        <p>Let's do this!</p>
+        <div class="input-field-container">
+          <div class="input-field">
+            <label for="first-name">FIRST NAME</label>
+            <input id="first-name" name="first-name" type="text" placeholder="John">
+          </div>
+          <div class="input-field">
+            <label for="last-name">LAST NAME</label>
+            <input id="last-name" name="last-name" type="text" placeholder="Doe">
+          </div>
+          <div class="input-field">
+            <label for="email">EMAIL</label>
+            <input id="email" name="email" type="email" required placeholder="example@exp.com">
+          </div>
+          <div class="input-field">
+            <label for="phone-number">PHONE NUMBER</label>
+            <input id="phone-number" name="phone-number" type="tel" placeholder="222-333-4444">
+          </div>
+          <div class="input-field">
+            <label for="password">PASSWORD</label>
+            <input id="password" name="password" type="password" required>
+            <span class="password-err-msg" style="display: none;">* Passwords don't match</span>
+          </div>
+          <div class="input-field">
+            <label for="password-confirm">CONFIRM PASSWORD</label>
+            <input id="password-confirm" name="password-confirm" type="password" required>
+            <span class="password-err-msg" style="display: none;">* Passwords don't match</span>
+          </div>
+        </div>
+      </div>
+      <div class="form-lower-section">
+        <button id="submit-button" type="submit">Create Account</button>
+        <p>Already have an account? <a href="#">Log in</a></p>
+      </div>
+    </form>
+  </div>
+  <script src="./script.js"></script>
+</body>
+
+</html>
